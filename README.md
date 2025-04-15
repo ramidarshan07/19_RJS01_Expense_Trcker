@@ -1,12 +1,51 @@
-# React + Vite
+# 💸 Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive expense tracking application built using **React** and **Bootstrap**. It allows users to add, edit, delete, and persist their expenses locally using `localStorage`. The UI includes form validation, success messages, and a user-friendly interface.
+![expensee-tracker-img-1](https://github.com/user-attachments/assets/d8220c48-81e2-46cc-8a01-6445e8df0625)
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔥 Add New Expenses
+- ✏️ Edit Existing Expenses
+- 🗑️ Delete Expenses
+- 💾 LocalStorage Persistence
+- ✅ Form Validation with Error Handling
+- ✅ Success Message on Add/Edit
+- 🌙 Dark Theme UI
+- 📅 Date Selection for Each Entry
+- 🔍 Category-based dropdown for quick input
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React** (Vite)
+- **Bootstrap 5**
+- **Bootstrap Icons**
+- **JavaScript (ES6+)**
+- **HTML5 + CSS3**
+
+---
+
+## 🧠 Concepts Used
+
+- React Functional Components
+- React Hooks (`useState`, `useEffect`)
+- Form Validation
+- Controlled Components
+- Conditional Rendering
+- `localStorage` for Data Persistence
+- Context Menu Handling (Edit/Delete)
+- Responsive Design with Bootstrap Grid
+
+---
+
+## 📦 Installation & Run
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
+npm install
+npm run dev
