@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.stroke {
+  color: black;
+  -webkit-text-stroke: 1px #ffc107;
+}
+
+.form-control,
+.form-select {
+  transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border: 1px solid #ffc107 !important;
+  outline: none !important;
+  box-shadow: 0px 0px 10px #ffc107a6 !important;
+}
+
+.table {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.custom-thead {
+  background-color: #000 !important;
+  color: #ffc107 !important;
+}
+
+.sort-style {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.table-row:hover {
+  background-color: #2b2b2b !important;
+  transition: background-color 0.3s ease;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #ffc107;
+}
+
+.table td .btn {
+  transition: transform 0.2s;
+}
+
+.table td .btn:hover {
+  transform: scale(1.1);
+}
