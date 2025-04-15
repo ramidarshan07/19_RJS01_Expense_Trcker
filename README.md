@@ -1,6 +1,7 @@
 # 💸 Expense Tracker App
 
 A simple and responsive expense tracking application built using **React** and **Bootstrap**. It allows users to add, edit, delete, and persist their expenses locally using `localStorage`. The UI includes form validation, success messages, and a user-friendly interface.
+
 ![expensee-tracker-img-1](https://github.com/user-attachments/assets/d8220c48-81e2-46cc-8a01-6445e8df0625)
 
 ## 🚀 Features
